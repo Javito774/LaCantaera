@@ -29,6 +29,13 @@ body {
   width: auto;
 }
 
+.logo {
+  display: table;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
 .price-list li {
   display: grid;
   grid-template-columns: auto 1fr auto;
