@@ -36,10 +36,13 @@ body {
   margin-bottom: 24px;
 }
 
-.price-list li {
+.price-list .price-item {
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: 6px;
+}
+
+.price-item li {
   margin-bottom: 3px;
 }
 
@@ -47,10 +50,6 @@ body {
   border-bottom: 3px dotted;
   position: relative;
   top: -5px;
-}
-
-.price-list .precio {
-  align-self: end;
 }
 
 .seccion {
