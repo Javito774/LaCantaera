@@ -46,8 +46,8 @@ body {
   gap: 6px;
 }
 
-.price-item li {
-  margin-bottom: 3px;
+.price-list li {
+  margin-bottom: 6px;
 }
 
 .price-list .dots {
