@@ -66,12 +66,9 @@ body {
   top: -5px;
 }
 
-.seccion {
-  margin-top: 20px;
-}
-
-h2 {
-  margin-bottom: 6px;
+.seccion h2 {
+  padding-top: 20px;
+  padding-bottom: 6px;
 }
 
 .descripcion {
