@@ -6,69 +6,53 @@
   margin: 0;
 }
 
-:root {
-  --apio: #aec90b;
-  --azucar: #dfe7eb;
-  --sulfitos: #91b6e1;
-  --secos: #d19360;
-  --gluten: #b08119;
-  --huevo: #f6a500;
-  --lacteos: #a0d9f7;
-  --maiz: #9b9822;
-  --marisco: #e40046;
-  --pescado: #63c2d0;
-  --moluscos: #a55c45;
-  --soja: #009540;
-  --setas: #aa95a9;
-}
-
 .apio {
-  background-color: var(--apio);
+  background-color: #aec90b;
 }
 
 .azucar {
-  background-color: var(--azucar);
+  background-color: #dfe7eb;
 }
 
 .sulfitos {
-  background-color: var(--sulfitos);
+  background-color: #91b6e1;
 }
 
 .secos {
-  background-color: var(--secos);
+  background-color: #d19360;
 }
 
 .gluten {
-  background-color: var(--gluten);
+  background-color: #b08119;
 }
 
 .huevo {
-  background-color: var(--huevo);
+  background-color: #f6a500;
 }
 
 .lacteos {
-  background-color: var(--lacteos);
+  background-color: #a0d9f7;
 }
 
 .maiz {
-  background-color: var(--maiz);
+  background-color: #9b9822;
 }
 .marisco {
-  background-color: var(--marisco);
+  background-color: #e40046;
 }
 
 .pescado {
-  background-color: var(--pescado);
+  background-color: #63c2d0;
 }
 
 .moluscos {
-  background-color: var(--moluscos);
+  background-color: #a55c45;
 }
 .soja {
-  background-color: var(--soja);
+  background-color: #009540;
 }
 .setas {
-  background-color: var(--setas);
+  background-color: #aa95a9;
 }
 
 html,
