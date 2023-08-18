@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+aside {
+    width: 288px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    background-color: rgb(17 24 39);
+    color: rgb(31 41 55);
+    padding: 12px 24px;
+}
+
+aside .admin-logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 12px;
+}
+aside .admin-logo h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#admin-logo {
+    height: 40px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+a {
+    text-decoration: inherit;
+}
+nav li>a {
+    font-size: 14px;
+    color: rgb(156 163 175);
+    display: flex;
+    gap: 12px;
+    font-weight: 600;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+nav li>a:hover,
+nav li[selected] a {
+    background-color: rgb(31 41 55);
+    color: #fff;
+}
+
+nav li>a svg {
+    width: 24px;
+    height: auto;
+}
+
+nav li>a span {
+    padding: 4px 8px;
+    font-weight: 500;
+    color: rgb(156 163 175);
+    background-color: rgb(156 163 175 / 0.1);
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+nav .settings {
+    margin-top: auto;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.apio {
+  background-color: #aec90b;
+}
+
+.azucar {
+  background-color: #dfe7eb;
+}
+
+.sulfitos {
+  background-color: #91b6e1;
+}
+
+.secos {
+  background-color: #d19360;
+}
+
+.gluten {
+  background-color: #b08119;
+}
+
+.huevo {
+  background-color: #f6a500;
+}
+
+.lacteos {
+  background-color: #a0d9f7;
+}
+
+.maiz {
+  background-color: #9b9822;
+}
+.marisco {
+  background-color: #e40046;
+}
+
+.pescado {
+  background-color: #63c2d0;
+}
+
+.moluscos {
+  background-color: #a55c45;
+}
+.soja {
+  background-color: #009540;
+}
+.setas {
+  background-color: #aa95a9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  background-color: #202124;
+  padding-left: 288px;
+  padding-bottom: 12px;
+  min-height: 100vh;
+}
+
+#carta {
+  padding: 60px 24px 0;
+  max-width: min(1024px, 100vw);
+  margin: 0 auto;
+  background-color: #202124;
+  color: #e8eaed;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#logo,
+.logo {
+  fill: #e8eaed;
+  height: 60px;
+  width: auto;
+}
+
+.logo {
+  display: table;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 50px;
+  height: auto;
+}
+
+.price-list .price-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 6px;
+}
+
+.price-list li {
+  margin-bottom: 6px;
+}
+
+.price-list .dots {
+  border-bottom: 3px dotted;
+  position: relative;
+  top: -5px;
+}
+
+.seccion h2 {
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.descripcion {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+.v-split {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+}
+
+.alergia {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+p.nombre {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.alergeno {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.alergenos-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+h2 {
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+button {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  color: rgb(255 255 255);
+  background-color: rgb(99 102 241);
+  background-color: rgb(59 130 246);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.375rem;
+  column-gap: 0.375rem;
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+  border: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+button svg {
+  width: 24px;
+  height: auto;
+}
+
+button.newSection {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: rgb(209 213 219);
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 24px;
+}
+button.newSection svg {
+  margin: 0 auto;
+  display: block;
+  width: 48px;
+}
+@media only screen and (max-width: 1024px) {
+  .v-split {
+    display: block;
+  }
+  h2 {
+    position: sticky;
+    top: 0px;
+    background-color: #202124;
+    z-index: 1;
+  }
+}
