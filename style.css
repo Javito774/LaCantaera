@@ -119,6 +119,7 @@ body {
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: 6px;
+  align-items: end;
 }
 
 .price-list li {
@@ -151,6 +152,10 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 64px;
+}
+
+.precio>span{
+  display: block;
 }
 
 @media only screen and (max-width: 1024px) {
