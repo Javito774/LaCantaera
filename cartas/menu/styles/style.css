@@ -156,6 +156,11 @@ p.nombre {
   column-gap: 24px;
 }
 
+.servicio {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 @media only screen and (max-width: 1024px) {
   .v-split {
     display: block;
