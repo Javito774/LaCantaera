@@ -161,6 +161,26 @@ p.nombre {
   padding-bottom: 12px;
 }
 
+.whatsapp-logo-container {
+  position: fixed;
+  bottom: 20px;
+  right: 24px;
+  background-color: #25d366;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.whatsapp-logo-container svg {
+  fill: #fff;
+  width: 29px;
+  height: auto;
+}
+
 @media only screen and (max-width: 1024px) {
   .v-split {
     display: block;
