@@ -35,6 +35,10 @@ Ionos proporciona una amplia gama de servicios adicionales que pueden ser útile
 4. Soporte Técnico:
 Ionos cuenta con un equipo de soporte técnico dedicado que está disponible para ayudar al cliente en caso de cualquier problema o consulta relacionada con el alojamiento del sitio web. Esto brinda tranquilidad al cliente, sabiendo que tiene acceso a asistencia experta en cualquier momento.
 
+## Dominios
+
+Actualmente solo existe un dominio: https://lacantaera.es para la carta principal y un subdominio https://desayuno.lacantaera.es para la carta de desaynos
+
 ## Credenciales
 
 Las unicas credenciales necesarias para el proyecto son las credenciales del servicio de hosting. https://www.ionos.es/
